@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Responsive websites are fluid and adapt to the size of the screen no matter what the target device. Devices are detected by media queries. Whereas adaptive websites are only concerned about the browser being a specific width, which is preselected for different devices with different screen sizes, at which point it adapts the layout. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first websites are designed with a mobile screen size being the default view and directly translates into min-width media queries. They are initially designed as a website for the smallest mobile devices possible and then scale upwards to adapt to desktop computers. Desktop first websites are designed to be viewed on a laptop or desktop computer screen size and can often translate poorly to a mobile device view and as such are designed with responsive design to then adapt to different screen sizes.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+`font-size: 62.5%` makes the default font size for your entire website 10px (assuming the browser’s default font size is 16px, which is usually the standard (but is user-configurable). 1 REM = 10px so it makes setting font-sizes easier to calculate, therefore it's easy to think in pixels but still set sizes in terms of REMs.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing separates CSS designs into their own separate files to reduce repetition, making your code more manageable and reuseable. Pre-processors extend CSS with variables, operators, interpolations, functions, mixins and many more other usable assets. LESS and SASS are well known preprocessors.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Nesting is my favourite concept in preprocessing because it makes code more manageable and readable. Functions give me the most trouble because it requires a lot more mental computation and exponential logical application. 
+
+You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
