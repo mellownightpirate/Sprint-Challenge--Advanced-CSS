@@ -198,7 +198,7 @@ p {
   align-items: center;
   background-color: whitesmoke;
   border-bottom: 1px solid gainsboro;
-  padding: [object Object];
+  padding: 20px;
 }
 .nav-container h1 {
   font-size: 4rem;
@@ -230,10 +230,10 @@ footer {
   margin-bottom: 15px;
 }
 .home .intro h2 {
-  padding: [object Object];
+  padding: 15px;
 }
 .home .intro p {
-  padding: [object Object];
+  padding: 15px;
 }
 .home .space-images {
   display: flex;
@@ -262,7 +262,7 @@ footer {
   }
 }
 .home .visit-planets {
-  padding: [object Object];
+  padding: 15px;
 }
 .home .visit-planets h3 {
   margin-top: 11px;
@@ -273,7 +273,7 @@ footer {
 .home .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
-  padding: [object Object];
+  padding: 15px;
   padding: 50px;
   display: flex;
   justify-content: center;
@@ -282,7 +282,7 @@ footer {
   .home .walk {
     flex-direction: column-reverse;
     margin-top: 15px;
-    padding: [object Object];
+    padding: 15px;
   }
 }
 .home .walk .walk-text {
