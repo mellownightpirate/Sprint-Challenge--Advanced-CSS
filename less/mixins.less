@@ -1,1 +1,63 @@
 // Mixins Here
+.flexcenter(@display: flex, @just-cont: center) {
+    display: @display;
+    justify-content: @just-cont;
+}
+
+.padding-style(@padding: 15px) {
+    padding: @padding;
+}
+
+.width(@size: 100%) {
+    width: @size;
+  } 
+
+.btn-style() {
+    background: @header-font-color;
+    color: @wild-sand;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 30%;
+    text-align: center;
+    }
+
+.mobile() {
+    @media @phone {
+        display: none;
+    }
+}
+
+.animation{
+    -webkit-animation: swirl-in-fwd 2s ease-out both;
+    animation: swirl-in-fwd 2s ease-out both;
+ }
+@-webkit-keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-360deg) scale(0);
+            transform: rotate(-360deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+@keyframes swirl-in-fwd {
+  0% {
+    -webkit-transform: rotate(-360deg) scale(0);
+            transform: rotate(-360deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
+.swirl-in-fwd {
+    -webkit-animation: swirl-in-fwd 2s ease-out both;
+            animation: swirl-in-fwd 2s ease-out both;
+} 
